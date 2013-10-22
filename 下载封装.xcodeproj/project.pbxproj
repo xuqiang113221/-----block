@@ -23,6 +23,7 @@
 		4AB23612180CE60100E0BC5D /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB23611180CE60100E0BC5D /* ____Tests.m */; };
 		4AB2361D180CE66F00E0BC5D /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2361C180CE66F00E0BC5D /* Download.m */; };
 		4AB23620180CE67F00E0BC5D /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2361F180CE67F00E0BC5D /* DownloadManager.m */; };
+		4ADD439B18161150007680E7 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD439A18161150007680E7 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		4AB2361C180CE66F00E0BC5D /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
 		4AB2361E180CE67F00E0BC5D /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		4AB2361F180CE67F00E0BC5D /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		4ADD439918161150007680E7 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		4ADD439A18161150007680E7 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				4AB2361F180CE67F00E0BC5D /* DownloadManager.m */,
 				4AB2361B180CE66F00E0BC5D /* Download.h */,
 				4AB2361C180CE66F00E0BC5D /* Download.m */,
+				4ADD439918161150007680E7 /* SubViewController.h */,
+				4ADD439A18161150007680E7 /* SubViewController.m */,
 				4AB235FE180CE60000E0BC5D /* Images.xcassets */,
 				4AB235ED180CE60000E0BC5D /* Supporting Files */,
 			);
@@ -262,6 +267,7 @@
 				4AB235FD180CE60000E0BC5D /* ViewController.m in Sources */,
 				4AB2361D180CE66F00E0BC5D /* Download.m in Sources */,
 				4AB235F7180CE60000E0BC5D /* AppDelegate.m in Sources */,
+				4ADD439B18161150007680E7 /* SubViewController.m in Sources */,
 				4AB23620180CE67F00E0BC5D /* DownloadManager.m in Sources */,
 				4AB235F3180CE60000E0BC5D /* main.m in Sources */,
 			);
@@ -474,6 +480,7 @@
 				4AB23617180CE60100E0BC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AB23618180CE60100E0BC5D /* Build configuration list for PBXNativeTarget "下载封装Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				4AB2361A180CE60100E0BC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
