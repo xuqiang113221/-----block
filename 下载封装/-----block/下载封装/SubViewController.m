@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     //看看有没有
-    //到底有没有
+    //你有没有
 }
 
 - (void)didReceiveMemoryWarning
