@@ -21,6 +21,8 @@
 		4AB23608180CE60100E0BC5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB235EA180CE60000E0BC5D /* UIKit.framework */; };
 		4AB23610180CE60100E0BC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB2360E180CE60100E0BC5D /* InfoPlist.strings */; };
 		4AB23612180CE60100E0BC5D /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB23611180CE60100E0BC5D /* ____Tests.m */; };
+		4AB2361D180CE66F00E0BC5D /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2361C180CE66F00E0BC5D /* Download.m */; };
+		4AB23620180CE67F00E0BC5D /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2361F180CE67F00E0BC5D /* DownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		4AB2360D180CE60100E0BC5D /* 下载封装Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "下载封装Tests-Info.plist"; sourceTree = "<group>"; };
 		4AB2360F180CE60100E0BC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AB23611180CE60100E0BC5D /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		4AB2361B180CE66F00E0BC5D /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		4AB2361C180CE66F00E0BC5D /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
+		4AB2361E180CE67F00E0BC5D /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		4AB2361F180CE67F00E0BC5D /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				4AB235F8180CE60000E0BC5D /* Main.storyboard */,
 				4AB235FB180CE60000E0BC5D /* ViewController.h */,
 				4AB235FC180CE60000E0BC5D /* ViewController.m */,
+				4AB2361E180CE67F00E0BC5D /* DownloadManager.h */,
+				4AB2361F180CE67F00E0BC5D /* DownloadManager.m */,
+				4AB2361B180CE66F00E0BC5D /* Download.h */,
+				4AB2361C180CE66F00E0BC5D /* Download.m */,
 				4AB235FE180CE60000E0BC5D /* Images.xcassets */,
 				4AB235ED180CE60000E0BC5D /* Supporting Files */,
 			);
@@ -250,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB235FD180CE60000E0BC5D /* ViewController.m in Sources */,
+				4AB2361D180CE66F00E0BC5D /* Download.m in Sources */,
 				4AB235F7180CE60000E0BC5D /* AppDelegate.m in Sources */,
+				4AB23620180CE67F00E0BC5D /* DownloadManager.m in Sources */,
 				4AB235F3180CE60000E0BC5D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "下载封装/下载封装-Prefix.pch";
 				INFOPLIST_FILE = "下载封装/下载封装-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "下载封装/下载封装-Prefix.pch";
 				INFOPLIST_FILE = "下载封装/下载封装-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
